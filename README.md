@@ -8,7 +8,7 @@ English | [简体中文](README-CN.md)
 
 ## Problem List
 
-| #    | 题目                                                         | 代码                                                         |
+| #    | Problem                                                      | Code                                                         |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 83   | [Remove Duplicates from Sorted List](problems/83_remove-duplicates-from-sorted-list.md/) | [python](./python/problems/83_remove-duplicates-from-sorted-list.py) |
 |      |                                                              |                                                              |
