@@ -7,7 +7,6 @@
     :author: dilless(Huangbo)
     :date: 2020/7/12
 """
-import shutil
 from copy import copy
 
 from data_structures.list_node import ListNode
