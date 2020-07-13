@@ -27,12 +27,13 @@ class Solution:
 
 def main(values=(1, 1, 2, 3, 3)):
     origin = LinkedListUtil.create_linked_list(values)
-    correct = LinkedListUtil.create_linked_list(list(set(values)))
-    ans = Solution().deleteDuplicates(copy(origin))
-    r = LinkedListUtil.is_equal(ans, correct)
-
     print('[Origin]: ', end='')
     LinkedListUtil.print_linked_list(origin)
+
+    correct = LinkedListUtil.create_linked_list(list(set(values)))
+    ans = Solution().deleteDuplicates(origin)
+    r = LinkedListUtil.is_equal(ans, correct)
+
     print('[Answer]: ', end='')
     LinkedListUtil.print_linked_list(ans)
     print()
