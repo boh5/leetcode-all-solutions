@@ -33,13 +33,16 @@ class LinkedListUtil:
         return head
 
     @staticmethod
-    def print_linked_list(head: ListNode) -> None:
+    def print_linked_list(head: ListNode, name: str = '[LinkedList]') -> None:
         """
         Print linked list in a human-readable-way, example: `1 -> 2 -> 3 -> None`
         :param head: head node of linked list
         :type head: ListNode
+        :param name: name of liked list
+        :type name: str
         :return: None
         """
+        print(name, ': ', sep='', end='')
         cur_node = head
         while cur_node:
             print(cur_node.val, ' -> ', sep='', end='')
